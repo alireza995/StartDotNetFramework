@@ -15,7 +15,8 @@ namespace StartDotNetFramework
                 var key = Console.ReadKey().Key;
                 stop = key == ConsoleKey.Spacebar;
             }
-            Console.WriteLine("Project stopped");
+
+            Console.WriteLine(Environment.NewLine + "Project stopped");
         }
     }
 }
