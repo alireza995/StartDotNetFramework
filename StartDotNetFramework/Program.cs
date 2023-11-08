@@ -12,7 +12,8 @@ namespace StartDotNetFramework
             {
                 try
                 {
-                    Console.WriteLine(YourCode.WriteHere());
+                    Console.WriteLine("Result:");
+                    Console.WriteLine(YourCode.WriteHere() + Environment.NewLine);
                 }
                 catch
                 {
