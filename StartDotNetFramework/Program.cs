@@ -11,9 +11,9 @@ namespace StartDotNetFramework
             while (!stop)
             {
                 Console.WriteLine(YourCode.WriteHere());
-                Console.WriteLine("Press any key to restart project or ESC to exit.");
+                Console.WriteLine("Press any key to restart project or Espace to exit.");
                 var key = Console.ReadKey().Key;
-                stop = key == ConsoleKey.Escape;
+                stop = key == ConsoleKey.Spacebar;
             }
             Console.WriteLine("Project stopped");
         }
