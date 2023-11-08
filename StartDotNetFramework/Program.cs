@@ -2,6 +2,7 @@
 
 namespace StartDotNetFramework
 {
+    // ReSharper disable once ClassNeverInstantiated.Global
     internal class Program
     {
         public static void Main(string[] args)
