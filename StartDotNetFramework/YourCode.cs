@@ -1,10 +1,10 @@
 namespace StartDotNetFramework
 {
-    public class YourCode
+    public static class YourCode
     {
         public static string WriteHere()
         {
-            var result = "";
+            var result = new object();
         
             /////////////////////شروع کد/////////////////////////
         
@@ -30,7 +30,7 @@ namespace StartDotNetFramework
         
             ////////////////////////پایان کد./////////////////////
 
-            return result;
+            return result.ToString();
         }
     }
 }
